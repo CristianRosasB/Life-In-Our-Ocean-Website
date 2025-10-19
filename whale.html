@@ -1,38 +1,55 @@
 <html>
 
 <head>
-    <title>Blue Whales</title>
+    <title>Blue Whales - Life in our Ocean</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home Page</a>
+    <nav class="nav">
+        <div class="wrap">
+            <a href="index.html">Home Page</a>
+        </div>
     </nav>
-    <section class="Blue Whale" id="blue whale">
-        <h2>Blue Whales</h2>
+    <h1 id="title">Blue Whales</h1>
+    <section class="profile-animal">
         <p><b>Scientific Name: </b> Balaenoptera Musculus</p>
         <p><b>Size:</b> 82-105(ft) | 25-32(m)</p>
         <p><b>Weight:</b> 190-200 metric tons</p>
         <p><b>Life Span: </b> 80-90 years</p>
-        <img src="https://cdn.prod.website-files.com/665f17d0fb4bfc1e811460d3/665f17d0fb4bfc1e811468bf_5.jpg"
-            alt="Blue whale swimming in the ocean" height="338" width="600">
-        <img src="https://www.whalingmuseum.org/wp-content/uploads/2020/09/Hero.jpg" alt="Blue whale with her calf"
-            height="540" width="896">
+        <article class="container">
+            <figure class="image">
+                <img src="https://cdn.prod.website-files.com/665f17d0fb4bfc1e811460d3/665f17d0fb4bfc1e811468bf_5.jpg"
+                    alt="Blue whale swimming in the ocean" height="338" width="600">
+            </figure>
+            <figure class="image">
+                <img src="https://www.whalingmuseum.org/wp-content/uploads/2020/09/Hero.jpg"
+                    alt="Blue whale with her calf" height="338" width="600">
+            </figure>
+        </article>
+    </section>
 
-        <article>
-            <p>Blue whales are marine mammals and in fact are known as the largest animal
-                to have ever existed in the world due to the proportion of their sheer size and weight.
-                Their diet consists of majority krill and other small aquatic animals that they catch using their
-                baleen plates which replaces teeth. Baleen allows whale to catch krill more efficiently. The Whales
-                gulp a massive amount of water containing lots of krill and then push the water out with it's tongue
-                and trapping the krill inside.</p>
-            <p>Blue Whales live in all major ocean regions except for the arctic which we will get into in a bit.
-                They typically are found in the continental shelves and tend to migrate frequently. They live
-                in cold oceans where krill is more populated and migrate to waters with warmer temperatures to mate
-                or taking care of their calves. When blue whales aren't mating, their only job is to eat and eat in
-                order to prepare for mating season. The reason why Blue Whals aren't found in the Arctic ocean is
-                because krill populations are too low for their needs.
-            </p>
+    <main class="info about-animal">
+        <h2>About Blue Whales</h2>
+        <p>Blue whales are marine mammals and in fact are known as the largest animal
+            to have ever existed in the world due to the proportion of their sheer size and weight.
+            Their diet consists of majority krill and other small aquatic animals that they catch using their
+            baleen plates which replaces teeth. Baleen allows whale to catch krill more efficiently. The Whales
+            gulp a massive amount of water containing lots of krill and then push the water out with it's tongue
+            and trapping the krill inside.</p>
+        <p>Blue Whales live in all major ocean regions except for the arctic which we will get into in a bit.
+            They typically are found in the continental shelves and tend to migrate frequently. They live
+            in cold oceans where krill is more populated and migrate to waters with warmer temperatures to mate
+            or taking care of their calves. When blue whales aren't mating, their only job is to eat and eat in
+            order to prepare for mating season. The reason why Blue Whals aren't found in the Arctic ocean is
+            because krill populations are too low for their needs.
+        </p>
+
+        <article class="container video">
+            <h3 class="video-heading">Watch videos on Blue Whales</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zuwqZtU5vkk?si=fRgFZe4je5fhw-K2"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,7 +59,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
-    </section>
+    </main>
 </body>
 
 </html>
