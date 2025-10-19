@@ -99,7 +99,8 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
     width: 800px;
-    margin: 7px auto;
+    margin: 0 auto;
+    margin-bottom: 7px;
 }
 
 
